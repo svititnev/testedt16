@@ -33,4 +33,5 @@
   </languages>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Физлица</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
 </mdclass:Configuration>
