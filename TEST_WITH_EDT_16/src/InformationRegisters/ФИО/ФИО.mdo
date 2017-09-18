@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29f2249e-6983-4ba6-ba6a-adc5cbfe5d07">
+  <producedTypes>
+    <selectionType typeId="ca881eec-d01c-43c8-8e07-bdbc1542f885" valueTypeId="3e2cfb9a-d69c-4d6d-b158-9873103df8d1">
+    </selectionType>
+    <listType typeId="fab86f0e-638c-4152-a285-0f593eacaa1d" valueTypeId="bff86c50-f9bd-423a-8f09-359fe90ea346">
+    </listType>
+    <managerType typeId="605db0b7-eb7e-4a82-94a2-47ff003b4fea" valueTypeId="6a72c191-021e-4337-9122-b05dc1f16d8b">
+    </managerType>
+    <recordSetType typeId="05bc7938-89de-444b-b49a-828dc17992a8" valueTypeId="bf67741f-3db4-4e74-92be-2083c3a6b37a">
+    </recordSetType>
+    <recordKeyType typeId="2a66aba8-cc96-46e1-b196-734b6e134cc9" valueTypeId="e2e467e2-495d-4dee-9a18-3f9a7a7cddc2">
+    </recordKeyType>
+    <recordType typeId="5c8e98d5-e165-4c15-a517-dc0ce3928172" valueTypeId="e09dc268-a940-46eb-9cdf-f22023242c09">
+    </recordType>
+    <recordManagerType typeId="d35f9f39-d726-49d3-88fa-8c273b548b84" valueTypeId="9a4e52a8-70f4-4b5d-b6ac-9987517fa1c1">
+    </recordManagerType>
+  </producedTypes>
+  <name>ФИО</name>
+  <synonym>
+    <key>ru</key>
+    <value>ФИО</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1e79b686-9a6e-42c5-9c9a-eb2e43436881">
+    <name>Фамилия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фамилия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="6b134ef5-c80d-4aba-b7b1-8dde1d7ce416">
+    <name>Имя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="fb7a21e8-51c5-48cb-941e-e20cb4e33bd2">
+    <name>Отчество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчество</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="b4b1417b-b21e-4df2-b109-110cb9329625">
+    <name>Физлицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физлицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Физлица</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
