@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b417fc5b-5fb8-4768-b7de-73c0e9d2c341">
+  <producedTypes>
+    <objectType typeId="66a7c3ff-25e2-4e05-9907-17b7349573e4" valueTypeId="a11ce183-ae59-4f2d-ba1f-dad34a94b1bf">
+    </objectType>
+    <refType typeId="42eda594-5859-4764-9ed6-38804bcecc93" valueTypeId="5ed23870-0a26-4db4-a3c3-f3aa307b7a2e">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="17c29530-7327-4e14-82a7-bd7835a852c2" valueTypeId="5390027f-d935-417d-84e0-f3787e34109f">
+    </selectionType>
+    <listType typeId="4fda4ff9-c4da-40d3-9e9b-46e84ca8036d" valueTypeId="28ea33a8-f7ab-4287-ad22-e2b3d29dec1b">
+    </listType>
+    <managerType typeId="510b5043-6888-4adc-8f67-7942cd2b58bd" valueTypeId="40b0227d-ffda-47f1-8728-b0430bfba202">
+    </managerType>
+  </producedTypes>
+  <name>Контрагенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагенты</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="9e604387-2edd-4a19-9666-849750fc48fa">
+    <name>ИНН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИНН</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="3710a5d7-efd6-4acb-9690-cf6efbe8a725">
+    <name>ПолноеНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+</mdclass:Catalog>
