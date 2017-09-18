@@ -34,4 +34,5 @@
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Физлица</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
+  <informationRegisters>InformationRegister.ФИО</informationRegisters>
 </mdclass:Configuration>

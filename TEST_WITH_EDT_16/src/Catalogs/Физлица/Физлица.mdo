@@ -78,4 +78,11 @@
     </type>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
+  <templates uuid="3e0693f7-29e6-4687-a26a-676ee640f6c7">
+    <name>КарточкаФизлица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карточка физлица</value>
+    </synonym>
+  </templates>
 </mdclass:Catalog>
