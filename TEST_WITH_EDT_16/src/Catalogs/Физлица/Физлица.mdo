@@ -73,7 +73,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>100</length>
+        <length>150</length>
       </stringQualifiers>
     </type>
     <fullTextSearch>Use</fullTextSearch>
