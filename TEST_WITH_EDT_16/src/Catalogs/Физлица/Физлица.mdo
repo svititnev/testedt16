@@ -64,4 +64,18 @@
     </type>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
+  <attributes uuid="e1a5eff8-335b-48c0-814c-ce8acf392a3c">
+    <name>Фамилия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фамилия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
 </mdclass:Catalog>
