@@ -72,4 +72,15 @@
     </type>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
+  <attributes uuid="1e168aec-d0fc-45cd-bfbc-c06f4b733baa">
+    <name>Покупатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Покупатель</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
 </mdclass:Catalog>

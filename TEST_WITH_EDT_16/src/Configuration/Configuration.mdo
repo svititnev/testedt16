@@ -32,4 +32,5 @@
     <languageCode>ru</languageCode>
   </languages>
   <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Физлица</catalogs>
 </mdclass:Configuration>
